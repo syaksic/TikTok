@@ -1,0 +1,42 @@
+body {
+  background: red;
+}
+
+#network {
+  position: absolute;
+  top: 12%;
+  bottom: 30%;
+  width: 80%;
+  background: blue;
+}
+
+#log {
+  float: bottom;
+  position: absolute;
+  top: 72%;
+  width: 98%;
+  right: 1%;
+  left: 1%;
+  padding-top: 0.25em;
+  background: black;
+  color: white;
+}
+
+#nav {
+  position: absolute;
+  top: 12%;
+  right: 1%;
+  z-index: 99;
+  width: 18%;
+  bottom: 30%;
+  background: yellow;
+}
+
+#chat {
+  float: top;
+  z-index: 99;
+  background: white;
+  position: absolute;
+  width: 98%;
+}
+

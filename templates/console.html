@@ -1,0 +1,10 @@
+<form action="/a/network/new" method="post" id="logform">
+  <fieldset>
+    <legend>Log:</legend>
+    <div id="inbox">
+        {% for message in messages %}
+          {% module Template("message.html", message=message) %}
+        {% end %}
+      </div>
+  </fieldset>
+</form>

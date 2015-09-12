@@ -1,0 +1,18 @@
+<form action="/a/user/new" method="post" id="userform">
+    <fieldset>
+        <legend>Datos:</legend>
+        Usuario:<br>
+        <input type="text" name="user" id="message" value="">
+        <br>
+        Contraseña:<br>
+        <input type="password" name="pass" value="">
+        <br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+<form action="/a/image/new" method="post" id="imageform">
+    <fieldset>
+        <legend>Imagen:</legend>
+        <img src="{{ static_url("atlas.png") }}" alt="Atlas" style="width:200px;height:200px;">
+    </fieldset>
+</form>
